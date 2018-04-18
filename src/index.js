@@ -5,8 +5,6 @@ import SearchBar from './components/searchbar'
 
 const API_KEY = 'AIzaSyAu4rwuUSWunPW-zoghnFa1Hn9iOErA_hU'
 
-
-
 // Create a new component
 // This component will produce some HTML
 // function() == () =>
