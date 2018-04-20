@@ -22,7 +22,11 @@ class App extends Component {
 
 
       YTSearch({key: API_KEY, term: 'mammoth lakes'}, (videos) => {
-          this.setState({videos: videos});
+          this.setState({
+            videos: videos,
+            selectedVideo: videos[0]
+          });
+
       });
     }
 
