@@ -1,0 +1,24 @@
+import React from 'react';
+
+const VideoDetail = ({video}) => {
+  const videoId = video.id.videoId;
+  //const url = 'https://www.youtube.com/embed/' + videoId;
+  // lower line of code is same as above but using ES6 syntax
+  const url = `https://www.youtube.com/embed/${videoId}`;
+
+  return (
+    <div className="video-detail col-md-8">
+      <div className="embed-responsive embed-responsive-16by9">
+        <iframe className="embed-responsive-item"></iframe>
+      </div>
+      <dive className="details">
+       <div>{video.snippet.title}</div>
+       <div>{video.snippet.description}</div>
+      </div>
+    </div>
+  )
+
+
+};
+
+export default VideoDetail;
