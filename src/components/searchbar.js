@@ -9,7 +9,7 @@ class SearchBar extends Component {
     render() {
         //this.state.term = event.target.value BAD!!!!!
         return (
-            <div>
+            <div className="search-bar">
                 <input
                     // controlled field - state controlls the input
                     value = {this.state.term}
