@@ -4,7 +4,7 @@ const VideoListItem = (props) => {
   const video = props.video;
   const onVideoSelect = props.onVideoSelect;
   // ES6 code. line below  allows you to remove above lines of code
-//  const VideoListItem = ({video, onVideoSelect}) => {
+  // const VideoListItem = ({video, onVideoSelect}) => {
   const imageUrl = video.snippet.thumbnails.default.url;
 
   return (
